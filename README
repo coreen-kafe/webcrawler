@@ -1,0 +1,21 @@
+# for spell checking
+1. yum install php-pspell
+2. yum install aspell-en
+
+==== crawler.php ====
+# download html files
+# remove html tags
+# remove javascripts
+# remove special chars
+# add entity description
+
+==== refiner.php ====
+# remove stopword
+# remove special chars
+# remove non english //spell check
+# remove county name
+# remove all general terms
+# remove files sized less than 100bytes
+
+==== trimer.php ====
+# remove all empty lines
